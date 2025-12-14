@@ -15,6 +15,8 @@ export default function LoginPage() {
   const handleLogin = async () => {
     try {
       dispatch(loginStart());
+      setLoading(true);
+      setError("");
 
       const data = await loginApi({ email });
 
