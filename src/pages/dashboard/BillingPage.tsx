@@ -1,4 +1,4 @@
-import { CreditCard, ArrowUpRight, CheckCircle } from "lucide-react";
+import { ArrowUpRight, CheckCircle } from "lucide-react";
 
 const plans = [
   {
